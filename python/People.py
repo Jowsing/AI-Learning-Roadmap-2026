@@ -1,4 +1,6 @@
 from random import randint
+from typing import Self
+from datetime import datetime
 from Personality import Character, Looks
 
 class People(Character, Looks, object):
@@ -22,6 +24,24 @@ class People(Character, Looks, object):
 
 	def looks(self):
 		print(self.__looks)
+
+	async def getMarried(self, other: Self):
+		print(f"{other.name}, Are you married?")
+		print(f"{other.name}: I am not at now.")
+		print(f"{self.name}: Do you want marry you?")
+		print(f"{other.name}: Yes, I do!")
+
+		with open('Marriage-Cer.txt', 'a') as f:
+			f.write(f"{self.name} be married with {other.name} at {datetime.now()}")
+
+	async def getDivorced(self, other: Self):
+		print(f"{other.name}: I hate you.")
+		print(f"{self.name}: Me too")
+		print(f"{other.name}: So, Let's break up")
+
+		with open('Divorce-Cer.txt', 'a') as f:
+			f.write(f"{self.name} be divorced with {other.name} at {datetime.now()}")
+
 
 	def __init__(self, name, age, sex):
 		self.name = name

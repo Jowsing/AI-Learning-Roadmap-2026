@@ -9,6 +9,7 @@
 - [项目目标](#-项目目标)
 - [学习路线](#️-学习路线)
 - [9 个月学习计划](#️-9-个月学习计划)
+- [专项学习计划](#-专项学习计划)
 - [学习清单](#-学习清单)
 - [项目规划](#-项目规划)
 - [仓库结构](#️-仓库结构)
@@ -61,17 +62,21 @@ Ollama + vLLM + SGLang
 
 状态说明：`⬜ 未开始` · `🟨 进行中` · `✅ 已完成`
 
-| 月份 | 阶段 | 核心内容 | 阶段成果 | 状态 |
-| --- | --- | --- | --- | --- |
-| 第 1 月 | Python 与计算机基础 | 语法、OOP、typing、asyncio、文件处理、pandas | 文件与 Excel 自动化工具 | ⬜ |
-| 第 2 月 | 工程基础 | Git、Linux、Shell、Docker、Compose | 容器化 Python 服务 | ⬜ |
-| 第 3 月 | Web 后端 | FastAPI、SQLAlchemy、PostgreSQL、Redis、JWT | 带认证的博客 API | ⬜ |
-| 第 4 月 | LLM 应用开发 | 模型基础、Prompt、流式响应、结构化输出、工具调用 | 多轮聊天机器人 | ⬜ |
-| 第 5 月 | RAG | 文档解析、Embedding、向量检索、混合检索、重排 | 企业知识库 | ⬜ |
-| 第 6 月 | Agent 与 MCP | LangGraph、状态、记忆、工作流、MCP Client/Server | AI 办公助手 | ⬜ |
-| 第 7 月 | 模型部署 | Ollama、vLLM、SGLang、GPU、量化、LoRA | 本地模型 API 服务 | ⬜ |
-| 第 8 月 | 前端与全栈 | React、TypeScript、Next.js、流式 UI、文件上传 | ChatGPT Clone | ⬜ |
-| 第 9 月 | 综合实战 | 测试、日志、监控、CI/CD、性能与安全 | 可上线的 AI SaaS 项目 | ⬜ |
+| 月份    | 阶段                | 核心内容                                         | 阶段成果                | 状态 |
+| ------- | ------------------- | ------------------------------------------------ | ----------------------- | ---- |
+| 第 1 月 | Python 与计算机基础 | 语法、OOP、typing、asyncio、文件处理、pandas     | 文件与 Excel 自动化工具 | ⬜   |
+| 第 2 月 | 工程基础            | Git、Linux、Shell、Docker、Compose               | 容器化 Python 服务      | ⬜   |
+| 第 3 月 | Web 后端            | FastAPI、SQLAlchemy、PostgreSQL、Redis、JWT      | 带认证的博客 API        | ⬜   |
+| 第 4 月 | LLM 应用开发        | 模型基础、Prompt、流式响应、结构化输出、工具调用 | 多轮聊天机器人          | ⬜   |
+| 第 5 月 | RAG                 | 文档解析、Embedding、向量检索、混合检索、重排    | 企业知识库              | ⬜   |
+| 第 6 月 | Agent 与 MCP        | LangGraph、状态、记忆、工作流、MCP Client/Server | AI 办公助手             | ⬜   |
+| 第 7 月 | 模型部署            | Ollama、vLLM、SGLang、GPU、量化、LoRA            | 本地模型 API 服务       | ⬜   |
+| 第 8 月 | 前端与全栈          | React、TypeScript、Next.js、流式 UI、文件上传    | ChatGPT Clone           | ⬜   |
+| 第 9 月 | 综合实战            | 测试、日志、监控、CI/CD、性能与安全              | 可上线的 AI SaaS 项目   | ⬜   |
+
+## 📐 专项学习计划
+
+- [高等代数 16 周学习计划](roadmap/advanced-algebra.md)：矩阵、向量空间、特征理论、SVD、PCA 与 NumPy 实践
 
 ## ✅ 学习清单
 
